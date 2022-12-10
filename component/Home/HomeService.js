@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         width: '38px',
         height: '38px',
         opacity: 0.5,
-        background: "transparent",
+        backgroundColor: "transparent",
     },
     service_box_text: {
         padding: '10px',

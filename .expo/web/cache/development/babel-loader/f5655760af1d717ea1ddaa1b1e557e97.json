@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default as PackageIcons } from \"./PackageIcons\";","map":{"version":3,"names":["default","PackageIcons"],"sources":["E:/firstapp/firstapp/component/Package/index.js"],"sourcesContent":["export { default as PackageIcons } from './PackageIcons'"],"mappings":"AAAA,SAASA,OAAO,IAAIC,YAAY"},"metadata":{},"sourceType":"module"}

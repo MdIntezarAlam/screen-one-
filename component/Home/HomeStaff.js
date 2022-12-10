@@ -23,7 +23,6 @@ const HomeStaff = () => {
 
 const styles = StyleSheet.create({
     staff_container: {
-        marginTop: '10%',
         height: '50px',
         width: '100%',
         flex: 1,

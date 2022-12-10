@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
         width: '3px',
         height: '8.33px',
         top: ' 22px',
-        background: ' #DADADA',
+        backgroundColor: ' #DADADA',
     }
 })
 

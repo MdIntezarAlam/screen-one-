@@ -21,7 +21,7 @@ const Home = () => {
 const styles = StyleSheet.create({
     home_: {
         width: "100vw",
-        height: '100vh',
+        minHeight: '72vh',
         backgroundColor: "#fff",
         display: 'inline-block',
     },

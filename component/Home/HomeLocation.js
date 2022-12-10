@@ -10,13 +10,13 @@ const HomeLocation = () => {
             </View>
             <View style={styles.location_box}>
                 <View style={styles.location_one}>
-                    <Text style={styles.textStyle} style={{ color: "#fff", marginTop:'15%' }}>FM</Text>
+                    <Text style={{ color: "#fff", marginTop: '15%' }}>FM</Text>
                 </View>
                 <View style={styles.location_two}>
-                    <Text style={styles.textStyle} style={{ color: "#000" }}>Westheimer/ <br />Galleria</Text>
+                    <Text style={{ color: "#000" }}>Westheimer/ <br />Galleria</Text>
                 </View>
                 <View style={styles.location_two}>
-                    <Text style={styles.textStyle}>Westheimer/ <br />Wilcrest</Text>
+                    <Text>Westheimer/ <br />Wilcrest</Text>
                 </View>
             </View>
         </View>
@@ -25,7 +25,7 @@ const HomeLocation = () => {
 
 const styles = StyleSheet.create({
     location: {
-        marginTop: '20px',
+        // marginTop: '20px',
     },
     location_heading: {
         flexDirection: 'row',
@@ -68,17 +68,10 @@ const styles = StyleSheet.create({
         height: '45px',
         borderTopRightRadius: '14px',
         borderTopLeftRadius: '14px',
-        background: '#FFFFFF',
-        boxRhadow: '0px 1px 4px rgba(0, 0, 0, 0.25)',
+        backgroundColor: '#FFFFFF',
+        boxShadow: '0px 1px 4px rgba(0, 0, 0, 0.25)',
+        padding:"10px"
     },
-    textStyle: {
-        fontSize: '12px',
-        fontWeight: 500,
-        lineHeight: '16px',
-        letterSpacing: '2%',
-        alignItems: 'center',
-
-    }
 })
 
 export default HomeLocation;

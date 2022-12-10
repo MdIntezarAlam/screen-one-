@@ -9,4 +9,6 @@ export const homeBox_two = [
     { name: "Mia", src: require('../assets/b1.jpg') },
     { name: "Sandra", src: require('../assets/b3.jpg') },
     { name: "Jenny", src: require('../assets/b3.jpg') },
-    ]
+]
+
+
