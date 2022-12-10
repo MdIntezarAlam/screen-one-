@@ -26,7 +26,7 @@ export const packageContact = [
 ]
 
 export const packageGallery = [
-    { src: require("../assets/g1.jpg") },
-    { src: require("../assets/g2.jpg") },
-    { src: require("../assets/g3.jpg") },
+    { src: require("../assets/hd.png") },
+    { src: require("../assets/hd.png") },
+    { src: require("../assets/hd.png") },
 ]

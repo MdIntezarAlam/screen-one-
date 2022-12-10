@@ -1,18 +1,21 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
+import { packageGallery } from '../../utils/HomeData';
 
 const PackageGallery = () => {
     return (
         <View>
             <View style={styles.gallery_heading}>
-                <Text style={styles.galleryStyle}>Services</Text>
+                <Text style={styles.galleryStyle}>Gallery</Text>
                 <Text style={styles.gallerybtnStyle}>Show All</Text>
             </View>
-            <View style={styles.p_Box}>
-                <Image source={require("../../assets/hd.png")} style={styles.g_img} />
-                <Image source={require("../../assets/hd.png")} style={styles.g_img} />
-                <Image source={require("../../assets/hd.png")} style={styles.g_img} />
-            </View>
+            {packageGallery.map((img) => (
+                <View style={styles.p_Box}>
+                    <Image source={img.src} style={styles.g_img} />
+                    <Image source={img.src} style={styles.g_img} />
+                    <Image source={img.src} style={styles.g_img} />
+                </View>
+            ))}
         </View>
     );
 }
