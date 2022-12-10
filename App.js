@@ -19,7 +19,7 @@ const App = () => {
 const styles = StyleSheet.create({
     app_container: {
         width: '100vw',
-        height: '150vh',
+        height: '290vh',
         backgroundColor: "#fff",
     }
 })
